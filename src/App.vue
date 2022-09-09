@@ -1,28 +1,63 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- 路由占位符 -->
+    <router-view 
+    :userschuan="users"
+    @zcchuan="chuzcchuan"
+    @mmhchuan="mmashou"
+    ></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name:"app",
+  data() {
+    return {
+      shoumm:'',
+      users: [
+        {
+          name: 1,
+          password: 1,
+        },
+        {
+          name: 2,
+          password: 2,
+        },
+      ],
+    };
+  },
+  methods:{
+    chuzcchuan(chuanz){
+      this.users.push(chuanz)
+    },
+    mmashou(ashou){
+      const token = localStorage.getItem('token');
+      this.users.some((item,index)=>{
+        if(item.name==token){
+          item.password=ashou
+          return true;
+        }
+      })
+    },
   }
 }
 </script>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style>
+*{
+  padding: 0;
+  margin: 0;
+  user-select:none;
+}
+a{
+  text-decoration: none;
+}
+/* html, body {
+	width: 100%;
+	height: 100%;
+} */
+ul li {
+    list-style: none;
 }
 </style>

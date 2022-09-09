@@ -1,0 +1,212 @@
+{
+    "jiezhi": {
+        "zjiaing": 68,
+        "zkeing": 128.698,
+        "iding": 5,
+        "ck": [
+        {
+            "id": 4,
+            "sj": "2022/04/23",
+            "jian": 8,
+            "ke": 12.868,
+            "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 6,
+          "ke": 6.8,
+          "sfck": false
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 2.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 2.922,
+          "sfck": false
+        }
+      ]
+    },
+    "xianglian":{
+        "zjiaing": 52,
+        "zkeing": 103.996,
+        "iding": 5,
+        "ck": [
+        {
+          "id": 4,
+          "sj": "2022/04/23",
+          "jian": 5,
+          "ke": 18.868,
+          "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 3,
+          "ke": 6.99,
+          "sfck": true
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 2.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 2.922,
+          "sfck": false
+        }
+      ]
+    },
+    "shouzuo":{
+      "zjiaing": 26,
+      "zkeing": 128.689,
+      "iding": 5,
+      "ck": [
+        {
+          "id": 4,
+          "sj": "2022/04/23",
+          "jian": 2,
+          "ke": 28.968,
+          "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 1,
+          "ke": 16.99,
+          "sfck": true
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 32.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 12.922,
+          "sfck": false
+        }
+      ]
+    },
+    "diaozui":{
+      "zjiaing": 66,
+      "zkeing": 228.689,
+      "iding": 5,
+      "ck": [
+        {
+          "id": 4,
+          "sj": "2022/04/23",
+          "jian": 2,
+          "ke": 28.968,
+          "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 1,
+          "ke": 16.99,
+          "sfck": true
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 32.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 12.922,
+          "sfck": false
+        }
+      ]
+    },
+    "erhuan":{
+      "zjiaing": 52,
+      "zkeing": 136.689,
+      "iding": 5,
+      "ck": [
+        {
+          "id": 4,
+          "sj": "2022/04/23",
+          "jian": 2,
+          "ke": 28.968,
+          "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 1,
+          "ke": 16.99,
+          "sfck": true
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 32.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 12.922,
+          "sfck": false
+        }
+      ]
+    },
+    "chuanzhu":{
+      "zjiaing": 102,
+      "zkeing": 86.389,
+      "iding": 5,
+      "ck": [
+        {
+          "id": 4,
+          "sj": "2022/04/23",
+          "jian": 2,
+          "ke": 28.968,
+          "sfck": true
+        },
+        {
+          "id": 3,
+          "sj": "2022/04/22",
+          "jian": 1,
+          "ke": 16.99,
+          "sfck": true
+        },
+        {
+          "id": 2,
+          "sj": "2022/04/22",
+          "jian": 2,
+          "ke": 32.822,
+          "sfck": false
+        },
+        {
+          "id": 1,
+          "sj": "2022/04/21",
+          "jian": 1,
+          "ke": 12.922,
+          "sfck": false
+        }
+      ]
+    }
+  }
